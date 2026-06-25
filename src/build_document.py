@@ -1,7 +1,7 @@
 import fitz
 import hashlib
 
-pdf_path = "../data/papers/000351346.pdf"
+pdf_path = "data/papers/3rd_year_gradecard.pdf"
 
 # Document ID
 with open(pdf_path, "rb") as f:
