@@ -12,15 +12,14 @@ from langchain_core.messages import HumanMessage, SystemMessage
 import time
 
 # Load variables from .env
+# Load variables from .env
 load_dotenv()
-
-groq_api_key = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(
-    api_key=groq_api_key,
-    model="llama-3.3-70b-versatile",
-    temperature=0
-)
-
+def get_llm():
+    return ChatGroq(
+        api_key=os.getenv("GROQ_API_KEY"),
+        model="llama-3.3-70b-versatile",
+        temperature=0
+    )
 
 def clean_context_text(text):
     return "".join(
@@ -86,6 +85,7 @@ def answer_question(question):
         "system": SYSTEM_PROMPT,
         "user": human_prompt
     }
+    llm = get_llm()
     for i in range(2):
         generate_start = time.perf_counter()
         response = llm.invoke([
