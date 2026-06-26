@@ -1,0 +1,9 @@
+{
+    "trace_id": "37345e52-7385-40c8-b6f9-488276dd4887",
+    "question": "What is Alzheimer's disease?",
+    "latency": {
+        "retrieve": 2.7055999453295954e-05,
+        "total": 0.4023571730003823
+    },
+    "retrieved_chunks": []
+}

@@ -1,0 +1,44 @@
+{
+    "trace_id": "755e8276-07a1-4932-9b97-a5e4950c511b",
+    "question": "What is amoxicillin?",
+    "latency": {
+        "retrieve": 7.34390005163732e-05,
+        "generate": 0.000365504999535915,
+        "grounding": 4.1894999412761535e-05,
+        "total": 0.8549505239998325
+    },
+    "retrieved_chunks": [
+        {
+            "id": "1",
+            "text": "Amoxicillin is an antibiotic.",
+            "metadata": {
+                "document_id": "doc1",
+                "page_number": 1,
+                "chunk_index": 0
+            },
+            "distance": 0.9
+        }
+    ],
+    "prompt": {
+        "system": "You are a biomedical research assistant.\nAnswer the user's question using ONLY the retrieved context provided by the user.\nDo not use your own knowledge.\nIf the retrieved context does not contain enough information to answer the question, reply exactly:\n\"I don't know based on the provided context.\"\nDo not guess, infer, or use outside knowledge.\n\nReturn ONLY a valid JSON object.\nDo not include markdown.\nDo not include ```json.\nDo not include any explanation outside the JSON.\n\nYour response MUST contain exactly these fields:\n1. answer: a string containing the answer.\n2. citations: a list of objects with document_id, page_number, and chunk_index.\n3. confidence: exactly one of low, medium, high.\nOnly include citations for chunks actually used to answer the question.\nDo not use the field name citation. Always use citations.",
+        "user": "Retrieved context: \n        Document ID: doc1\n        Page Number: 1\n        Chunk Index: 0\n        Content: Amoxicillin is an antibiotic.\n        ----------------------------------------\n         , Question: What is amoxicillin?"
+    },
+    "cost": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "dollar_cost": 0.0
+    },
+    "llm_response": {
+        "answer": "Amoxicillin is an antibiotic.",
+        "citations": [
+            {
+                "document_id": "doc1",
+                "page_number": 1,
+                "chunk_index": 0
+            }
+        ],
+        "confidence": "high"
+    },
+    "grounding_verdict": "GROUNDED"
+}

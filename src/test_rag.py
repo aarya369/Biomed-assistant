@@ -1,6 +1,6 @@
-from rag_chain import answer_question
+from src.rag_chain import answer_question
 
-question = "Tell me the names of  all the courses in which Aarya Mehta got 'B' grade "
+question = "Tell me everything about intra vaginal rings"
 
 print(question)
 response = answer_question(question)

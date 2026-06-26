@@ -1,4 +1,4 @@
-from retriever import retrieve_chunks
+from src.retriever import retrieve_chunks
 
 chunks = retrieve_chunks(
     "Which universities were involved in the study Modulation of motor cortex excitability in obsessive-compulsive disorder?"

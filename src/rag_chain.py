@@ -1,42 +1,25 @@
 
-from retriever import retrieve_chunks
-import os
-
+from src.retriever import retrieve_chunks
+import os, json
+import uuid
+from src.prompts import SYSTEM_PROMPT
+from src.input_guardrails import validate_input
+from src.citation_validator import validate_citations
+from src.grounding_checker import grounding_check
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, SystemMessage
+import time
 
 # Load variables from .env
 load_dotenv()
 
-# Read the API key
 groq_api_key = os.getenv("GROQ_API_KEY")
-
-# Load the LLM
 llm = ChatGroq(
     api_key=groq_api_key,
     model="llama-3.3-70b-versatile",
     temperature=0
 )
-
-SYSTEM_PROMPT = """You are a biomedical research assistant.
-Answer the user's question using ONLY the retrieved context provided by the user.
-Do not use your own knowledge.
-If the retrieved context does not contain enough information to answer the question, reply exactly:
-"I don't know based on the provided context."
-Do not guess, infer, or use outside knowledge.
-
-Return ONLY a valid JSON object.
-Do not include markdown.
-Do not include ```json.
-Do not include any explanation outside the JSON.
-
-Your response MUST contain exactly these fields:
-1. answer: a string containing the answer.
-2. citations: a list of objects with document_id, page_number, and chunk_index.
-3. confidence: exactly one of low, medium, high.
-Only include citations for chunks actually used to answer the question.
-Do not use the field name citation. Always use citations."""
 
 
 def clean_context_text(text):
@@ -45,11 +28,47 @@ def clean_context_text(text):
         if char == "\n" or char == "\t" or ord(char) >= 32
     )
 
-
+def save_trace(trace):
+    os.makedirs("traces", exist_ok = True)
+    filepath = os.path.join(
+        "traces",
+        f"{trace['trace_id']}.json"
+    )
+    with open(filepath, "w", encoding = "utf-8") as f:
+        json.dump(trace, f, indent = 4, ensure_ascii = False)
 def answer_question(question):
+    trace_id = str(uuid.uuid4())
+    trace = {
+        "trace_id": trace_id,
+        "question": question,
+        "latency": {}
+    }
+    total_start = time.perf_counter()
 
     # Step 1: Retrieve relevant chunks
+    try:
+        validate_input(question)
+    except ValueError as e:
+        trace["latency"]["total"] = time.perf_counter() - total_start
+        save_trace(trace)
+        return str(e)
+    
+    retrieve_start = time.perf_counter()
     chunks = retrieve_chunks(question)
+    retrieve_time = time.perf_counter() - retrieve_start
+    trace["latency"] = {
+        "retrieve": retrieve_time
+    }
+    trace["retrieved_chunks"] = chunks
+    THRESHOLD = 0.5
+    if(len(chunks) == 0) or chunks[0]["distance"] < THRESHOLD:
+        trace["latency"]["total"] = time.perf_counter() - total_start
+        save_trace(trace)
+        return {
+            "answer": "I could not find this in the available literature.",
+            "citations": [],
+            "confidence": "low"
+        }
 
     context = ""
     for chunk in chunks:
@@ -58,49 +77,84 @@ def answer_question(question):
         Document ID: {chunk["metadata"]["document_id"]}
         Page Number: {chunk["metadata"]["page_number"]}
         Chunk Index: {chunk["metadata"]["chunk_index"]}
-        Content:
-{content}
+        Content: {content}
         ----------------------------------------
-"""
+        """
 
-    human_prompt = f"""Retrieved context:
-{context}
-
-Question:
-{question}"""
-
-    # print("=" * 80)
-    # print("SYSTEM MESSAGE:")
-    # print(SYSTEM_PROMPT)
-    # print("\nHUMAN MESSAGE:")
-    # print(human_prompt)
-    # print("=" * 80)
-
-    response = llm.invoke([
+    human_prompt = f"""Retrieved context: {context} , Question: {question}"""
+    trace["prompt"] = {
+        "system": SYSTEM_PROMPT,
+        "user": human_prompt
+    }
+    for i in range(2):
+        generate_start = time.perf_counter()
+        response = llm.invoke([
         SystemMessage(content=SYSTEM_PROMPT),
         HumanMessage(content=human_prompt),
     ])
-    return response.content
+        usage = response.response_metadata.get("token_usage", {})
 
-    # # Step 4: Ask the LLM
-    # print("=" * 100)
-    # print("FINAL PROMPT")
-    # print(prompt)
-    # print("=" * 100)
-    
-    # print("\nRAW RESPONSE:")
-    # print(response.content)
-    # print("=" * 80)
+        trace["cost"] = {
+            "input_tokens": usage.get("prompt_tokens", 0),
+            "output_tokens": usage.get("completion_tokens", 0),
+            "total_tokens": usage.get("total_tokens", 0),
+            "dollar_cost": 0.0
+            }
+        print(trace["cost"])
+        generate_time = time.perf_counter() - generate_start
+        trace["latency"]["generate"] = generate_time
+        try:
+            response_json = json.loads(response.content)
+            trace["llm_response"] = response_json
+        except json.JSONDecodeError:
+            if i == 0:
+                continue
+            else:
+                trace["latency"]["total"] = time.perf_counter() - total_start
+                save_trace(trace)
+                return {
+            "answer": "The model returned an invalid response format.",
+            "citations": [],
+            "confidence": "low"
+        }
+        try:
+            validate_citations(response_json)
+        except ValueError:
+            trace["latency"]["total"] = time.perf_counter() - total_start
+            save_trace(trace)
+            return {
+                "answer": "Response rejected since no citations were given",
+                "citations": [],
+                "confidence": "low"
+        }
 
-    # match = re.search(r"\{.*\}", response.content, re.DOTALL)
+        ground_start = time.perf_counter()
+        status = grounding_check(question,response_json["answer"],context)
+        ground_time = time.perf_counter() - ground_start
+        trace["latency"]["grounding"] = ground_time
+        trace["grounding_verdict"] = status
+        if status == "GROUNDED":
+            trace["latency"]["total"] = time.perf_counter() - total_start
+            save_trace(trace)
+            return response_json
+        elif status == "PARTIAL":
+            response_json["answer"] = ("The answer is only partially supported by the retrieved literature.\n\n" + response_json["answer"])
+            response_json["confidence"] = "low"
+            trace["latency"]["total"] = time.perf_counter() - total_start
+            save_trace(trace)
+            return response_json
+        else:
+            if i == 0:
+                continue
+            else:
+                trace["latency"]["total"] = time.perf_counter() - total_start
+                save_trace(trace)
+                return {
+                    "answer": "The generated answer could not be verified against the retrieved literature.",
+                    "citations": [],
+                    "confidence": "low"
+                    }
 
-#     if not match:
-#         raise ValueError("No JSON object found in LLM response.")
-
-#     response_json = json.loads(match.group())
-#     validated_response = RAGResponse.model_validate(
-#     response_json
-# )
 
     
 
