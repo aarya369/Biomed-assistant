@@ -25,7 +25,7 @@ def process_pdf(pdf_path):
 
     return {
         "document_id": document_id,
-        "document_title": metadata.get("title") or os.path.basename(pdf_path),
+        "document_title": os.path.basename(pdf_path),
         "authors": metadata.get("author") or "",
         "source_url": "unknown",
         "year": "",

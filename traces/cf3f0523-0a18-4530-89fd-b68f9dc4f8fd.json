@@ -1,0 +1,267 @@
+{
+    "trace_id": "cf3f0523-0a18-4530-89fd-b68f9dc4f8fd",
+    "question": "describe the link between diabetes and cancer",
+    "latency": {
+        "retrieve": 0.046444216999589116,
+        "generate": 1.051315753000381,
+        "grounding": 17.611981244999697,
+        "total": 19.067829131000508
+    },
+    "retrieved_chunks": [
+        {
+            "id": "355bbdfb563cc5f7a98f76e3ae84b4c0",
+            "text": "hyperglycemic state was not noteworthy in our study with \nan exception to certain marker (unpublished data).\nCONCLUSION\nBased on the survey of the published data, analysis from this \nreview indicates that diabetic individuals have an enhanced \nrisk of developing cancer. Yet, whether diabetes lead to \ncancer or cancer causes diabetes is still obscure. Further \nresearch needs to be undertaken so that the etiology behind \ndiabetes and cancer could be explicitly obtained.\nFinancial support and sponsorship\nNil.\nConflicts of interest\nThere are no conflicts of interest.\nREFERENCES\n1.",
+            "metadata": {
+                "page_number": 5,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "chunk_index": 7,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+            },
+            "distance": 0.23216331005096436
+        },
+        {
+            "id": "f7aaaeac101e9c807c6b0a3f80397aef",
+            "text": "need a robust research so that the link between diabetes and cancer could be firmly and impeccably documented.\nKey words: Breast neoplasms, diabetic complications, gastric neoplasms, hepatic neoplasms\nAddress for correspondence: Dr. Manal Abudawood, Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud \nUniversity, Riyadh, KSA. E‑mail: mabudawoodksu@gmail.com\nReceived: 10-04-2019; Revised: 30‑06‑2019; Accepted: 26-08-2019\nAccess this article online\nQuick Response Code:\nWebsite: \nwww.jmsjournal.net\nDOI: \n10.4103/jrms.JRMS_242_19",
+            "metadata": {
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 1,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 7
+            },
+            "distance": 0.24644452333450317
+        },
+        {
+            "id": "78a610dac7ac3172ba6b9c92db4c3ffa",
+            "text": "insulin secretion and insulin action or both. A number of clinical studies have investigated diabetes and its causal relation with \nneoplasm. Several epidemiological studies have found that diabetic patients have an increased risk of different types of cancers, for \nexample liver, pancreas, gastric (stomach), colorectum, kidney, and breast, and it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic and diabetic individuals. To explore the strength of evidence and biases",
+            "metadata": {
+                "page_number": 1,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 5,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+            },
+            "distance": 0.2761632204055786
+        },
+        {
+            "id": "d90f6e5e94d49588b0afa7b9221b85ab",
+            "text": "© 2019 Journal of Research in Medical Sciences | Published by Wolters Kluwer - Medknow\n| 2019 |\n1\nDiabetes and cancer: A comprehensive review\nManal Abudawood\nDepartment of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, KSA\nglucose homeostasis as an independent risk factor for \nthe development of specific neoplasms and affecting the \nprognosis of cancer.[2,3] Several epidemiological studies \nhave found that diabetic patients have an increased risk \nof different types of cancers, for example, liver, biliary",
+            "metadata": {
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "chunk_index": 0,
+                "page_number": 1
+            },
+            "distance": 0.29090553522109985
+        },
+        {
+            "id": "e4d8c77f5497db20b45ed44a992d29ca",
+            "text": "in the review [Table 1]. The largest proportion of cancer \ncases attributable to the increase in prevalence of diabetes \nand high body mass index (BMI) was in low‑income and \nmiddle‑income countries like Asia and sub‑Saharan Africa.[14]\nDiabetes and total cancer\nThere are strong evidences linking cancer with diabetes. \nA number of epidemiological studies has investigated \nthe association between diabetes and cancer risk.[15] In a \nEuropean study on 17 varied populations, cancer mortality \nrate was 1.12, 1.28, 1.57 in prediabetes, newly diagnosed",
+            "metadata": {
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "page_number": 2,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "chunk_index": 1
+            },
+            "distance": 0.29488372802734375
+        },
+        {
+            "id": "6c8f367fb609fa9a17429f3489bbf7a1",
+            "text": "in colorectal, colon, and rectal cancer with a 18%, 19%, \nand 16% decrease in overall survival (OS), respectively, \ncompared to nondiabetic individuals. The aforementioned \nstudies indicates that diabetes had a negative effect on \nCRC in OS.[59] The biological mechanism linkage between \ndiabetes and CRC prognosis is still unclear. Currently, it \nis hypothesized that hyperglycemia, insulin resistance, \nand insulin/insulin like growth factors (IGF) are probably \ninvolved in the progression of diabetes to CRC.\nBreast cancer and other sex related cancers",
+            "metadata": {
+                "page_number": 4,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 4,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+            },
+            "distance": 0.3028377294540405
+        },
+        {
+            "id": "a1b07c5deda44ed1c5695b8d4d4b15b8",
+            "text": "with an excess risk of cancer slightly greater for women \nthan men was reported by Ohkuma et  al., 2018.[19] In \naddition, it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic \nindividuals. An increased incidence of cancer mortality \nwith fasting blood glucose in the prediabetic individuals \n(6.1–6.9 mmol/L) was reported in a Korean study.[20] Hence, \nepidemiological studies provide evidence that diabetes \nand prediabetes are associated with an increased risk of \ntotal cancer.\nPancreatic cancer",
+            "metadata": {
+                "chunk_index": 4,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 2,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+            },
+            "distance": 0.312654972076416
+        },
+        {
+            "id": "aaa13e50bfb83c699b8f64021ac10ede",
+            "text": "between diabetes and the higher risk of gastric cancer has \nbeen documented by Lin et al.[32] According to Lin et al., 2011 \nhyperglycemia may account for generation of imbalance in \nthe energy/metabolism and impairment of immune system \nthat could progressively lead to gastric cancer. While many \nstudies and meta‑analysis reported significant difference \nbetween diabetic and nondiabetic individuals, several other \nstudies reported diversified results. In a cohort by Chodick \net al., 2010 they concluded no significant correlation between",
+            "metadata": {
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "chunk_index": 10,
+                "page_number": 2
+            },
+            "distance": 0.3181077837944031
+        },
+        {
+            "id": "27ad9c529c8665a9a8529928567295ad",
+            "text": "one million events. Diabetologia 2018;61:2140‑54.\n20.\t Jee SH, Ohrr H, Sull JW, Yun JE, Ji M, Samet JM. Fasting serum \nglucose level and cancer risk in Korean men and women. JAMA \n2005;293:194‑202.\n21.\t Ries LA, Melbert D, Krapcho M, Mariotto A, Miller BA, Feuer EJ, \net al. SEER Cancer Statistics Review 1975‑2004. National Cancer \nInstitute; 2007.\n22.\t Permert J, Ihse I, Jorfeldt L, von Schenck H, Arnqvist HJ, Larsson J. \nPancreatic cancer is associated with impaired glucose metabolism. \nEur J Surg 1993;159:101‑7.\n23.\t Kuriki K, Hirose K, Tajima K. Diabetes and cancer risk for all and",
+            "metadata": {
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 6,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 4
+            },
+            "distance": 0.31819599866867065
+        },
+        {
+            "id": "275c75397ed668316a94e96b387bc613",
+            "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n2\nobservational, cohort, case studies, and meta‑analysis \nstudying the correlation between diabetes and different \nneoplasms has been performed. Around 9 published \nstudies on pancreatic cancer, 8 on gastric cancer and 17 on \nhepatic cancer, 6 colorectum cancer, 8 breast cancer, and 2–3 \narticles on prostate cancer extracted from the survey were \nprofoundly studied from the total of 77 references included \nin the review [Table 1]. The largest proportion of cancer",
+            "metadata": {
+                "chunk_index": 0,
+                "page_number": 2,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+            },
+            "distance": 0.32259517908096313
+        }
+    ],
+    "prompt": {
+        "system": "\nYou are a biomedical research assistant.\n\nAnswer the user's question using ONLY the retrieved context.\nDo not use outside knowledge, make assumptions, or infer information that is not explicitly supported by the retrieved context.\n\nRead all retrieved chunks carefully before answering.\n\nFocus on the information that MOST DIRECTLY answers the user's question.\nDo not summarize the entire retrieved context if only a specific section is relevant.\n\nFor example:\n- If the user asks about mechanisms, prioritize mechanistic explanations over epidemiological findings.\n- If the user asks about causes, focus on causes rather than symptoms or treatments.\n- If the user asks about treatments, prioritize treatment-related evidence.\n- If the user asks for risk factors, focus on risk factors rather than disease prevalence.\n\nWhen multiple retrieved chunks discuss different aspects of the topic, synthesize them into one coherent answer while prioritizing the chunks that most directly answer the question.\n\nProvide a detailed and well-structured answer whenever sufficient information is available in the retrieved context.\n\nDo not repeat similar information.\nAvoid generic summaries if the retrieved context contains specific explanations.\n\nIf the retrieved context does not contain enough information to answer the question, reply exactly:\n\"I don't know based on the provided context.\"\n\nIf the retrieved context contains conflicting information, clearly state that the retrieved literature contains conflicting evidence and summarize each viewpoint objectively. Do not attempt to resolve the disagreement unless one viewpoint is explicitly better supported by the retrieved context.\n\nOnly cite retrieved chunks that directly support each part of your answer.\nDo not fabricate citations.\n\nReturn ONLY a valid JSON object.\nDo not include markdown, explanations, code fences, or any text outside the JSON.\n\nThe JSON object must contain exactly these fields:\n\n{\n  \"answer\": \"<string>\",\n  \"citations\": [\n    {\n      \"document_id\": \"<string>\",\n      \"page_number\": <integer>,\n      \"chunk_index\": <integer>\n    }\n  ],\n  \"confidence\": \"<low|medium|high>\"\n}\n\nConfidence guidelines:\n- high: The retrieved context directly and comprehensively supports the answer.\n- medium: The retrieved context supports the answer but some details are indirect or incomplete.\n- low: The retrieved context provides only weak, partial, or conflicting support.\n\nAlways use the field name \"citations\". Never use \"citation\".\n",
+        "user": "\nQuestion:\ndescribe the link between diabetes and cancer\n\nRetrieved Context:\n\n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 5\n        Chunk Index: 7\n        Content: hyperglycemic state was not noteworthy in our study with \nan exception to certain marker (unpublished data).\nCONCLUSION\nBased on the survey of the published data, analysis from this \nreview indicates that diabetic individuals have an enhanced \nrisk of developing cancer. Yet, whether diabetes lead to \ncancer or cancer causes diabetes is still obscure. Further \nresearch needs to be undertaken so that the etiology behind \ndiabetes and cancer could be explicitly obtained.\nFinancial support and sponsorship\nNil.\nConflicts of interest\nThere are no conflicts of interest.\nREFERENCES\n1.\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 1\n        Chunk Index: 7\n        Content: need a robust research so that the link between diabetes and cancer could be firmly and impeccably documented.\nKey words: Breast neoplasms, diabetic complications, gastric neoplasms, hepatic neoplasms\nAddress for correspondence: Dr. Manal Abudawood, Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud \nUniversity, Riyadh, KSA. E‑mail: mabudawoodksu@gmail.com\nReceived: 10-04-2019; Revised: 30‑06‑2019; Accepted: 26-08-2019\nAccess this article online\nQuick Response Code:\nWebsite: \nwww.jmsjournal.net\nDOI: \n10.4103/jrms.JRMS_242_19\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 1\n        Chunk Index: 5\n        Content: insulin secretion and insulin action or both. A number of clinical studies have investigated diabetes and its causal relation with \nneoplasm. Several epidemiological studies have found that diabetic patients have an increased risk of different types of cancers, for \nexample liver, pancreas, gastric (stomach), colorectum, kidney, and breast, and it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic and diabetic individuals. To explore the strength of evidence and biases\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 1\n        Chunk Index: 0\n        Content: © 2019 Journal of Research in Medical Sciences | Published by Wolters Kluwer - Medknow\n| 2019 |\n1\nDiabetes and cancer: A comprehensive review\nManal Abudawood\nDepartment of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, KSA\nglucose homeostasis as an independent risk factor for \nthe development of specific neoplasms and affecting the \nprognosis of cancer.[2,3] Several epidemiological studies \nhave found that diabetic patients have an increased risk \nof different types of cancers, for example, liver, biliary\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 2\n        Chunk Index: 1\n        Content: in the review [Table 1]. The largest proportion of cancer \ncases attributable to the increase in prevalence of diabetes \nand high body mass index (BMI) was in low‑income and \nmiddle‑income countries like Asia and sub‑Saharan Africa.[14]\nDiabetes and total cancer\nThere are strong evidences linking cancer with diabetes. \nA number of epidemiological studies has investigated \nthe association between diabetes and cancer risk.[15] In a \nEuropean study on 17 varied populations, cancer mortality \nrate was 1.12, 1.28, 1.57 in prediabetes, newly diagnosed\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 4\n        Chunk Index: 4\n        Content: in colorectal, colon, and rectal cancer with a 18%, 19%, \nand 16% decrease in overall survival (OS), respectively, \ncompared to nondiabetic individuals. The aforementioned \nstudies indicates that diabetes had a negative effect on \nCRC in OS.[59] The biological mechanism linkage between \ndiabetes and CRC prognosis is still unclear. Currently, it \nis hypothesized that hyperglycemia, insulin resistance, \nand insulin/insulin like growth factors (IGF) are probably \ninvolved in the progression of diabetes to CRC.\nBreast cancer and other sex related cancers\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 2\n        Chunk Index: 4\n        Content: with an excess risk of cancer slightly greater for women \nthan men was reported by Ohkuma et  al., 2018.[19] In \naddition, it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic \nindividuals. An increased incidence of cancer mortality \nwith fasting blood glucose in the prediabetic individuals \n(6.1–6.9 mmol/L) was reported in a Korean study.[20] Hence, \nepidemiological studies provide evidence that diabetes \nand prediabetes are associated with an increased risk of \ntotal cancer.\nPancreatic cancer\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 2\n        Chunk Index: 10\n        Content: between diabetes and the higher risk of gastric cancer has \nbeen documented by Lin et al.[32] According to Lin et al., 2011 \nhyperglycemia may account for generation of imbalance in \nthe energy/metabolism and impairment of immune system \nthat could progressively lead to gastric cancer. While many \nstudies and meta‑analysis reported significant difference \nbetween diabetic and nondiabetic individuals, several other \nstudies reported diversified results. In a cohort by Chodick \net al., 2010 they concluded no significant correlation between\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 6\n        Chunk Index: 4\n        Content: one million events. Diabetologia 2018;61:2140‑54.\n20.\t Jee SH, Ohrr H, Sull JW, Yun JE, Ji M, Samet JM. Fasting serum \nglucose level and cancer risk in Korean men and women. JAMA \n2005;293:194‑202.\n21.\t Ries LA, Melbert D, Krapcho M, Mariotto A, Miller BA, Feuer EJ, \net al. SEER Cancer Statistics Review 1975‑2004. National Cancer \nInstitute; 2007.\n22.\t Permert J, Ihse I, Jorfeldt L, von Schenck H, Arnqvist HJ, Larsson J. \nPancreatic cancer is associated with impaired glucose metabolism. \nEur J Surg 1993;159:101‑7.\n23.\t Kuriki K, Hirose K, Tajima K. Diabetes and cancer risk for all and\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 2\n        Chunk Index: 0\n        Content: Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n2\nobservational, cohort, case studies, and meta‑analysis \nstudying the correlation between diabetes and different \nneoplasms has been performed. Around 9 published \nstudies on pancreatic cancer, 8 on gastric cancer and 17 on \nhepatic cancer, 6 colorectum cancer, 8 breast cancer, and 2–3 \narticles on prostate cancer extracted from the survey were \nprofoundly studied from the total of 77 references included \nin the review [Table 1]. The largest proportion of cancer\n        ----------------------------------------\n        \n\nInstructions:\nAnswer ONLY the question asked.\nPrioritize the retrieved passages that are most relevant to the question.\nDo not summarize unrelated parts of the retrieved context.\n"
+    },
+    "cost": {
+        "input_tokens": 2508,
+        "output_tokens": 257,
+        "total_tokens": 2765,
+        "dollar_cost": 0.0
+    },
+    "llm_response": {
+        "answer": "There is a strong link between diabetes and cancer, with diabetic individuals having an enhanced risk of developing cancer. The link between diabetes and cancer is still unclear, with some studies suggesting that diabetes may lead to cancer, while others suggest that cancer may cause diabetes.",
+        "citations": [
+            {
+                "document_id": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 1,
+                "chunk_index": 5
+            },
+            {
+                "document_id": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 2,
+                "chunk_index": 1
+            },
+            {
+                "document_id": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 4,
+                "chunk_index": 4
+            }
+        ],
+        "confidence": "high",
+        "retrieved_chunks": [
+            {
+                "id": "355bbdfb563cc5f7a98f76e3ae84b4c0",
+                "text": "hyperglycemic state was not noteworthy in our study with \nan exception to certain marker (unpublished data).\nCONCLUSION\nBased on the survey of the published data, analysis from this \nreview indicates that diabetic individuals have an enhanced \nrisk of developing cancer. Yet, whether diabetes lead to \ncancer or cancer causes diabetes is still obscure. Further \nresearch needs to be undertaken so that the etiology behind \ndiabetes and cancer could be explicitly obtained.\nFinancial support and sponsorship\nNil.\nConflicts of interest\nThere are no conflicts of interest.\nREFERENCES\n1.",
+                "metadata": {
+                    "page_number": 5,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "chunk_index": 7,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+                },
+                "distance": 0.23216331005096436
+            },
+            {
+                "id": "f7aaaeac101e9c807c6b0a3f80397aef",
+                "text": "need a robust research so that the link between diabetes and cancer could be firmly and impeccably documented.\nKey words: Breast neoplasms, diabetic complications, gastric neoplasms, hepatic neoplasms\nAddress for correspondence: Dr. Manal Abudawood, Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud \nUniversity, Riyadh, KSA. E‑mail: mabudawoodksu@gmail.com\nReceived: 10-04-2019; Revised: 30‑06‑2019; Accepted: 26-08-2019\nAccess this article online\nQuick Response Code:\nWebsite: \nwww.jmsjournal.net\nDOI: \n10.4103/jrms.JRMS_242_19",
+                "metadata": {
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "page_number": 1,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 7
+                },
+                "distance": 0.24644452333450317
+            },
+            {
+                "id": "78a610dac7ac3172ba6b9c92db4c3ffa",
+                "text": "insulin secretion and insulin action or both. A number of clinical studies have investigated diabetes and its causal relation with \nneoplasm. Several epidemiological studies have found that diabetic patients have an increased risk of different types of cancers, for \nexample liver, pancreas, gastric (stomach), colorectum, kidney, and breast, and it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic and diabetic individuals. To explore the strength of evidence and biases",
+                "metadata": {
+                    "page_number": 1,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 5,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+                },
+                "distance": 0.2761632204055786
+            },
+            {
+                "id": "d90f6e5e94d49588b0afa7b9221b85ab",
+                "text": "© 2019 Journal of Research in Medical Sciences | Published by Wolters Kluwer - Medknow\n| 2019 |\n1\nDiabetes and cancer: A comprehensive review\nManal Abudawood\nDepartment of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Saud University, Riyadh, KSA\nglucose homeostasis as an independent risk factor for \nthe development of specific neoplasms and affecting the \nprognosis of cancer.[2,3] Several epidemiological studies \nhave found that diabetic patients have an increased risk \nof different types of cancers, for example, liver, biliary",
+                "metadata": {
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "chunk_index": 0,
+                    "page_number": 1
+                },
+                "distance": 0.29090553522109985
+            },
+            {
+                "id": "e4d8c77f5497db20b45ed44a992d29ca",
+                "text": "in the review [Table 1]. The largest proportion of cancer \ncases attributable to the increase in prevalence of diabetes \nand high body mass index (BMI) was in low‑income and \nmiddle‑income countries like Asia and sub‑Saharan Africa.[14]\nDiabetes and total cancer\nThere are strong evidences linking cancer with diabetes. \nA number of epidemiological studies has investigated \nthe association between diabetes and cancer risk.[15] In a \nEuropean study on 17 varied populations, cancer mortality \nrate was 1.12, 1.28, 1.57 in prediabetes, newly diagnosed",
+                "metadata": {
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "page_number": 2,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "chunk_index": 1
+                },
+                "distance": 0.29488372802734375
+            },
+            {
+                "id": "6c8f367fb609fa9a17429f3489bbf7a1",
+                "text": "in colorectal, colon, and rectal cancer with a 18%, 19%, \nand 16% decrease in overall survival (OS), respectively, \ncompared to nondiabetic individuals. The aforementioned \nstudies indicates that diabetes had a negative effect on \nCRC in OS.[59] The biological mechanism linkage between \ndiabetes and CRC prognosis is still unclear. Currently, it \nis hypothesized that hyperglycemia, insulin resistance, \nand insulin/insulin like growth factors (IGF) are probably \ninvolved in the progression of diabetes to CRC.\nBreast cancer and other sex related cancers",
+                "metadata": {
+                    "page_number": 4,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 4,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+                },
+                "distance": 0.3028377294540405
+            },
+            {
+                "id": "a1b07c5deda44ed1c5695b8d4d4b15b8",
+                "text": "with an excess risk of cancer slightly greater for women \nthan men was reported by Ohkuma et  al., 2018.[19] In \naddition, it is predicted that hyperglycemic state observed \nin diabetic milieu enhances the cancer risk in prediabetic \nindividuals. An increased incidence of cancer mortality \nwith fasting blood glucose in the prediabetic individuals \n(6.1–6.9 mmol/L) was reported in a Korean study.[20] Hence, \nepidemiological studies provide evidence that diabetes \nand prediabetes are associated with an increased risk of \ntotal cancer.\nPancreatic cancer",
+                "metadata": {
+                    "chunk_index": 4,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "page_number": 2,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+                },
+                "distance": 0.312654972076416
+            },
+            {
+                "id": "aaa13e50bfb83c699b8f64021ac10ede",
+                "text": "between diabetes and the higher risk of gastric cancer has \nbeen documented by Lin et al.[32] According to Lin et al., 2011 \nhyperglycemia may account for generation of imbalance in \nthe energy/metabolism and impairment of immune system \nthat could progressively lead to gastric cancer. While many \nstudies and meta‑analysis reported significant difference \nbetween diabetic and nondiabetic individuals, several other \nstudies reported diversified results. In a cohort by Chodick \net al., 2010 they concluded no significant correlation between",
+                "metadata": {
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "chunk_index": 10,
+                    "page_number": 2
+                },
+                "distance": 0.3181077837944031
+            },
+            {
+                "id": "27ad9c529c8665a9a8529928567295ad",
+                "text": "one million events. Diabetologia 2018;61:2140‑54.\n20.\t Jee SH, Ohrr H, Sull JW, Yun JE, Ji M, Samet JM. Fasting serum \nglucose level and cancer risk in Korean men and women. JAMA \n2005;293:194‑202.\n21.\t Ries LA, Melbert D, Krapcho M, Mariotto A, Miller BA, Feuer EJ, \net al. SEER Cancer Statistics Review 1975‑2004. National Cancer \nInstitute; 2007.\n22.\t Permert J, Ihse I, Jorfeldt L, von Schenck H, Arnqvist HJ, Larsson J. \nPancreatic cancer is associated with impaired glucose metabolism. \nEur J Surg 1993;159:101‑7.\n23.\t Kuriki K, Hirose K, Tajima K. Diabetes and cancer risk for all and",
+                "metadata": {
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "page_number": 6,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 4
+                },
+                "distance": 0.31819599866867065
+            },
+            {
+                "id": "275c75397ed668316a94e96b387bc613",
+                "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n2\nobservational, cohort, case studies, and meta‑analysis \nstudying the correlation between diabetes and different \nneoplasms has been performed. Around 9 published \nstudies on pancreatic cancer, 8 on gastric cancer and 17 on \nhepatic cancer, 6 colorectum cancer, 8 breast cancer, and 2–3 \narticles on prostate cancer extracted from the survey were \nprofoundly studied from the total of 77 references included \nin the review [Table 1]. The largest proportion of cancer",
+                "metadata": {
+                    "chunk_index": 0,
+                    "page_number": 2,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+                },
+                "distance": 0.32259517908096313
+            }
+        ],
+        "trace_id": "cf3f0523-0a18-4530-89fd-b68f9dc4f8fd"
+    },
+    "grounding_verdict": "GROUNDED"
+}

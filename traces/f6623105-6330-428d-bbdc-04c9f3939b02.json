@@ -1,0 +1,262 @@
+{
+    "trace_id": "f6623105-6330-428d-bbdc-04c9f3939b02",
+    "question": "causes of HIV",
+    "latency": {
+        "retrieve": 0.055877048000184004,
+        "generate": 0.6998473049998211,
+        "grounding": 0.4048149669997656,
+        "total": 1.7888016060005612
+    },
+    "retrieved_chunks": [
+        {
+            "id": "f1f1f0d066da74a24440e9be5078b545",
+            "text": "Participants often spoke of an accidental HIV exposure (e.g., needle stick, coming into \ncontact with an injured person’s blood, unknown HIV status of a sexual partner) or \npregnancy resulting from non-consensual sex. Hence, a MPT IVR was viewed as being \nhighly beneficial in the context of physically forced or unwanted [tricked, manipulated, or\ncoerced] sex, having an HIV-positive partner, or having a sexual partner who engaged in \nsexual behaviors that placed a woman at increased risk for HIV infection. Although not",
+            "metadata": {
+                "page_number": 10,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "chunk_index": 1
+            },
+            "distance": 0.5274900197982788
+        },
+        {
+            "id": "e492a61da98e4fc5a67ff70d24b223b3",
+            "text": "sexual behaviors that placed a woman at increased risk for HIV infection. Although not \na property of MPT IVRs, a few women believed that a MPT IVR would also afford men \nprotection.\n“…you know there are different kinds of men. There are people who are rude, they \nwill reject it, but you are the one who is supposed to tell the person how it is going \nto help him, not only the woman but also him, because even for him, she cannot tell \nwhat he does when he is out there. And if she has it [the IVR], if the man goes out \nthere to be with other partners, he will still not get infected.”",
+            "metadata": {
+                "page_number": 10,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "chunk_index": 2,
+                "document_id": "4fc51fc23e056b26966bdf163da468bd"
+            },
+            "distance": 0.5530303716659546
+        },
+        {
+            "id": "78dcdbc69ea7b5d991e8802fcfe863c6",
+            "text": "among women, Curr. Opin. HIV AIDS 11 (1) (2016) 18, 10.1097/COH.0000000000000207. \n[PubMed: 26417954] \n[6]. Bradley E, Forsberg K, Betts JE, et al. , Factors affecting pre-exposure prophylaxis implementation \nfor women in the United States: a systematic review, J. Women’s Health 28 (9) (2019) 1272–\n1285, 10.1089/jwh.2018.7353.\n[7]. Warren EA, Paterson P, Schulz WS, et al. , Risk perception and the influence on uptake and use \nof biomedical prevention interventions for HIV in sub-Saharan Africa: a systematic literature \nreview, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.",
+            "metadata": {
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "page_number": 15,
+                "chunk_index": 3,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf"
+            },
+            "distance": 0.5870498418807983
+        },
+        {
+            "id": "0296a4cdd238d0a639d471c9d93f0fe6",
+            "text": "oral PrEP) can effectively prevent HIV among women at-risk of infection [5]; however, \nbehavioral, social, and structural factors may have a role in limiting awareness and uptake of \ndaily oral PrEP among women globally [6,7]. Recently, a dapivirine IVR [8] and long-acting \nMcLellan-Lemal et al.\nPage 2\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+            "metadata": {
+                "chunk_index": 7,
+                "page_number": 2,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "document_id": "4fc51fc23e056b26966bdf163da468bd"
+            },
+            "distance": 0.6129053831100464
+        },
+        {
+            "id": "042cccbe196b4222c6a474c91234ec3f",
+            "text": "s12889-015-1483-1. [PubMed: 25884675] \n[39]. Fonner V, Dalglish S, Kennedy C, Oral tenofovir-based HIV pre-exposure prophylaxis \n(PrEP) for all populations: a systematic review and meta-analysis of effectiveness, safety, \nbehavioural, and reproductive health outcomes, AIDS 30 (12) (2016) 1973–1983, 10.1097/\nQAD.0000000000001145. [PubMed: 27149090] \n[40]. Akoth C, Oguta JO, Gatimu SM, Prevalence and factors associated with covert contraceptive \nuse in Kenya: a cross-sectional study, BMC Public Health 21 (1) (2021) 1–8, 10.1186/\ns12889-021-11375-7. [PubMed: 33388037]",
+            "metadata": {
+                "chunk_index": 5,
+                "page_number": 17,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "document_id": "4fc51fc23e056b26966bdf163da468bd"
+            },
+            "distance": 0.6218228340148926
+        },
+        {
+            "id": "09b0934426602b63a1b02a56ab21222f",
+            "text": "cure for HIV. Concerns for the welfare of children who had one or both parents die \nfrom HIV were common. The idea of a MPT IVR providing an effective method for \navoiding unplanned pregnancy, especially among adolescent girls and young women, was \ngenerally viewed favorably (e.g., supports child spacing, improves health and socioeconomic \nMcLellan-Lemal et al.\nPage 9\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+            "metadata": {
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "chunk_index": 6,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "page_number": 9
+            },
+            "distance": 0.6234999895095825
+        },
+        {
+            "id": "20d089b96f6bbceb4ec08d1173eefe38",
+            "text": "The data that support the findings of this study are available from the CDC but restrictions \napply to the availability of these data, which were used under license for the current study, \nso are not publicly available. Data are, however, available from the authors upon reasonable \nrequest and with permission of CDC.\nAbbreviations:\nCDC\nUnited States Centers for Disease Control and Prevention\nHIV\nHuman immunodeficiency virus\nIVR\nIntravaginal ring\nMcLellan-Lemal et al.\nPage 14\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript",
+            "metadata": {
+                "chunk_index": 5,
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "page_number": 14
+            },
+            "distance": 0.6269718408584595
+        },
+        {
+            "id": "25c7efd84743144e93ffde0eb7003222",
+            "text": "influence collective receptivity. Additional community acceptability research is needed.\nClinical Trial Registration—The study is registered at http://ClinicalTrials.gov under the \nidentifier NCT03762382.\nKeywords\nHIV prevention; Multipurpose intravaginal rings; Acceptability; User experience; Women; Kenya\n1. Introduction\nFor sexually active women of reproductive age, reducing risks for human immunodeficiency \nvirus (HIV) infection, other sexually transmitted infections (STIs), and unintended \npregnancy remain public health priorities, especially in high prevalence settings. While",
+            "metadata": {
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "page_number": 2,
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "chunk_index": 3
+            },
+            "distance": 0.641406774520874
+        },
+        {
+            "id": "e0b9c67ec5c70569f36f1c7ce72e4b9a",
+            "text": "with the IVR and experienced minimal side effects, physical discomfort, sexual interference, \nand expulsions. While not reported as problematic, increased vaginal wetness was present \nacross study groups but more common among the TFV/LNG IVR group. Similar findings\nwere reported for at least two US-based studies of HIV prevention-only IVRs [30,31]. \nLongitudinal examination of changes in abundances of individual bacterial taxa for the \nKCRS trial showed no evidence that either the TFV/LNG or TFV IVR significantly affected",
+            "metadata": {
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                "chunk_index": 0,
+                "page_number": 13
+            },
+            "distance": 0.6430463790893555
+        },
+        {
+            "id": "99517433a823269d8422f12b0df21295",
+            "text": "review, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.\n[8]. Nel A, Kapiga S, Bekker LG, Devlin B, Borremans M, Rosenberg Z for the IPM 027/The \nring study research center teams. Safety and efficacy of dapivirine vaginal ring for HIV-1 \nprevention in African women (Abstract #110LB), CROI, Boston, MA. [abstract], 2016, 2020 \nFebruary 22–25, https://www.croiconference.org/abstract/safety-and-efficacy-dapivirine-vaginal-\nring-hiv-1-prevention-african-women. Accessed July 26 2021.\n[9]. World Health Organization (WHO), Trial results reveal that long-acting",
+            "metadata": {
+                "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                "page_number": 15,
+                "chunk_index": 4,
+                "document_id": "4fc51fc23e056b26966bdf163da468bd"
+            },
+            "distance": 0.650446891784668
+        }
+    ],
+    "prompt": {
+        "system": "\nYou are a biomedical research assistant.\n\nAnswer the user's question using ONLY the retrieved context.\nDo not use outside knowledge, make assumptions, or infer information that is not explicitly supported by the retrieved context.\n\nRead all retrieved chunks carefully before answering.\n\nFocus on the information that MOST DIRECTLY answers the user's question.\nDo not summarize the entire retrieved context if only a specific section is relevant.\n\nFor example:\n- If the user asks about mechanisms, prioritize mechanistic explanations over epidemiological findings.\n- If the user asks about causes, focus on causes rather than symptoms or treatments.\n- If the user asks about treatments, prioritize treatment-related evidence.\n- If the user asks for risk factors, focus on risk factors rather than disease prevalence.\n\nWhen multiple retrieved chunks discuss different aspects of the topic, synthesize them into one coherent answer while prioritizing the chunks that most directly answer the question.\n\nProvide a detailed and well-structured answer whenever sufficient information is available in the retrieved context.\n\nDo not repeat similar information.\nAvoid generic summaries if the retrieved context contains specific explanations.\n\nIf the retrieved context does not contain enough information to answer the question, reply exactly:\n\"I don't know based on the provided context.\"\n\nIf the retrieved context contains conflicting information, clearly state that the retrieved literature contains conflicting evidence and summarize each viewpoint objectively. Do not attempt to resolve the disagreement unless one viewpoint is explicitly better supported by the retrieved context.\n\nOnly cite retrieved chunks that directly support each part of your answer.\nDo not fabricate citations.\n\nReturn ONLY a valid JSON object.\nDo not include markdown, explanations, code fences, or any text outside the JSON.\n\nThe JSON object must contain exactly these fields:\n\n{\n  \"answer\": \"<string>\",\n  \"citations\": [\n    {\n      \"document_id\": \"<string>\",\n      \"page_number\": <integer>,\n      \"chunk_index\": <integer>\n    }\n  ],\n  \"confidence\": \"<low|medium|high>\"\n}\n\nConfidence guidelines:\n- high: The retrieved context directly and comprehensively supports the answer.\n- medium: The retrieved context supports the answer but some details are indirect or incomplete.\n- low: The retrieved context provides only weak, partial, or conflicting support.\n\nAlways use the field name \"citations\". Never use \"citation\".\n",
+        "user": "\nQuestion:\ncauses of HIV\n\nRetrieved Context:\n\n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 10\n        Chunk Index: 1\n        Content: Participants often spoke of an accidental HIV exposure (e.g., needle stick, coming into \ncontact with an injured person’s blood, unknown HIV status of a sexual partner) or \npregnancy resulting from non-consensual sex. Hence, a MPT IVR was viewed as being \nhighly beneficial in the context of physically forced or unwanted [tricked, manipulated, or\ncoerced] sex, having an HIV-positive partner, or having a sexual partner who engaged in \nsexual behaviors that placed a woman at increased risk for HIV infection. Although not\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 10\n        Chunk Index: 2\n        Content: sexual behaviors that placed a woman at increased risk for HIV infection. Although not \na property of MPT IVRs, a few women believed that a MPT IVR would also afford men \nprotection.\n“…you know there are different kinds of men. There are people who are rude, they \nwill reject it, but you are the one who is supposed to tell the person how it is going \nto help him, not only the woman but also him, because even for him, she cannot tell \nwhat he does when he is out there. And if she has it [the IVR], if the man goes out \nthere to be with other partners, he will still not get infected.”\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 15\n        Chunk Index: 3\n        Content: among women, Curr. Opin. HIV AIDS 11 (1) (2016) 18, 10.1097/COH.0000000000000207. \n[PubMed: 26417954] \n[6]. Bradley E, Forsberg K, Betts JE, et al. , Factors affecting pre-exposure prophylaxis implementation \nfor women in the United States: a systematic review, J. Women’s Health 28 (9) (2019) 1272–\n1285, 10.1089/jwh.2018.7353.\n[7]. Warren EA, Paterson P, Schulz WS, et al. , Risk perception and the influence on uptake and use \nof biomedical prevention interventions for HIV in sub-Saharan Africa: a systematic literature \nreview, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 2\n        Chunk Index: 7\n        Content: oral PrEP) can effectively prevent HIV among women at-risk of infection [5]; however, \nbehavioral, social, and structural factors may have a role in limiting awareness and uptake of \ndaily oral PrEP among women globally [6,7]. Recently, a dapivirine IVR [8] and long-acting \nMcLellan-Lemal et al.\nPage 2\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 17\n        Chunk Index: 5\n        Content: s12889-015-1483-1. [PubMed: 25884675] \n[39]. Fonner V, Dalglish S, Kennedy C, Oral tenofovir-based HIV pre-exposure prophylaxis \n(PrEP) for all populations: a systematic review and meta-analysis of effectiveness, safety, \nbehavioural, and reproductive health outcomes, AIDS 30 (12) (2016) 1973–1983, 10.1097/\nQAD.0000000000001145. [PubMed: 27149090] \n[40]. Akoth C, Oguta JO, Gatimu SM, Prevalence and factors associated with covert contraceptive \nuse in Kenya: a cross-sectional study, BMC Public Health 21 (1) (2021) 1–8, 10.1186/\ns12889-021-11375-7. [PubMed: 33388037]\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 9\n        Chunk Index: 6\n        Content: cure for HIV. Concerns for the welfare of children who had one or both parents die \nfrom HIV were common. The idea of a MPT IVR providing an effective method for \navoiding unplanned pregnancy, especially among adolescent girls and young women, was \ngenerally viewed favorably (e.g., supports child spacing, improves health and socioeconomic \nMcLellan-Lemal et al.\nPage 9\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 14\n        Chunk Index: 5\n        Content: The data that support the findings of this study are available from the CDC but restrictions \napply to the availability of these data, which were used under license for the current study, \nso are not publicly available. Data are, however, available from the authors upon reasonable \nrequest and with permission of CDC.\nAbbreviations:\nCDC\nUnited States Centers for Disease Control and Prevention\nHIV\nHuman immunodeficiency virus\nIVR\nIntravaginal ring\nMcLellan-Lemal et al.\nPage 14\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 2\n        Chunk Index: 3\n        Content: influence collective receptivity. Additional community acceptability research is needed.\nClinical Trial Registration—The study is registered at http://ClinicalTrials.gov under the \nidentifier NCT03762382.\nKeywords\nHIV prevention; Multipurpose intravaginal rings; Acceptability; User experience; Women; Kenya\n1. Introduction\nFor sexually active women of reproductive age, reducing risks for human immunodeficiency \nvirus (HIV) infection, other sexually transmitted infections (STIs), and unintended \npregnancy remain public health priorities, especially in high prevalence settings. While\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 13\n        Chunk Index: 0\n        Content: with the IVR and experienced minimal side effects, physical discomfort, sexual interference, \nand expulsions. While not reported as problematic, increased vaginal wetness was present \nacross study groups but more common among the TFV/LNG IVR group. Similar findings\nwere reported for at least two US-based studies of HIV prevention-only IVRs [30,31]. \nLongitudinal examination of changes in abundances of individual bacterial taxa for the \nKCRS trial showed no evidence that either the TFV/LNG or TFV IVR significantly affected\n        ----------------------------------------\n        \n        Document Title: Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf\n        Page Number: 15\n        Chunk Index: 4\n        Content: review, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.\n[8]. Nel A, Kapiga S, Bekker LG, Devlin B, Borremans M, Rosenberg Z for the IPM 027/The \nring study research center teams. Safety and efficacy of dapivirine vaginal ring for HIV-1 \nprevention in African women (Abstract #110LB), CROI, Boston, MA. [abstract], 2016, 2020 \nFebruary 22–25, https://www.croiconference.org/abstract/safety-and-efficacy-dapivirine-vaginal-\nring-hiv-1-prevention-african-women. Accessed July 26 2021.\n[9]. World Health Organization (WHO), Trial results reveal that long-acting\n        ----------------------------------------\n        \n\nInstructions:\nAnswer ONLY the question asked.\nPrioritize the retrieved passages that are most relevant to the question.\nDo not summarize unrelated parts of the retrieved context.\n"
+    },
+    "cost": {
+        "input_tokens": 2617,
+        "output_tokens": 127,
+        "total_tokens": 2744,
+        "dollar_cost": 0.0
+    },
+    "llm_response": {
+        "answer": "Accidental HIV exposure, having an HIV-positive partner, or having a sexual partner who engages in sexual behaviors that place a woman at increased risk for HIV infection are causes of HIV.",
+        "citations": [
+            {
+                "document_id": "nihms-2009671.pdf",
+                "page_number": 10,
+                "chunk_index": 1
+            },
+            {
+                "document_id": "nihms-2009671.pdf",
+                "page_number": 10,
+                "chunk_index": 2
+            }
+        ],
+        "confidence": "high",
+        "retrieved_chunks": [
+            {
+                "id": "f1f1f0d066da74a24440e9be5078b545",
+                "text": "Participants often spoke of an accidental HIV exposure (e.g., needle stick, coming into \ncontact with an injured person’s blood, unknown HIV status of a sexual partner) or \npregnancy resulting from non-consensual sex. Hence, a MPT IVR was viewed as being \nhighly beneficial in the context of physically forced or unwanted [tricked, manipulated, or\ncoerced] sex, having an HIV-positive partner, or having a sexual partner who engaged in \nsexual behaviors that placed a woman at increased risk for HIV infection. Although not",
+                "metadata": {
+                    "page_number": 10,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "chunk_index": 1
+                },
+                "distance": 0.5274900197982788
+            },
+            {
+                "id": "e492a61da98e4fc5a67ff70d24b223b3",
+                "text": "sexual behaviors that placed a woman at increased risk for HIV infection. Although not \na property of MPT IVRs, a few women believed that a MPT IVR would also afford men \nprotection.\n“…you know there are different kinds of men. There are people who are rude, they \nwill reject it, but you are the one who is supposed to tell the person how it is going \nto help him, not only the woman but also him, because even for him, she cannot tell \nwhat he does when he is out there. And if she has it [the IVR], if the man goes out \nthere to be with other partners, he will still not get infected.”",
+                "metadata": {
+                    "page_number": 10,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "chunk_index": 2,
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd"
+                },
+                "distance": 0.5530303716659546
+            },
+            {
+                "id": "78dcdbc69ea7b5d991e8802fcfe863c6",
+                "text": "among women, Curr. Opin. HIV AIDS 11 (1) (2016) 18, 10.1097/COH.0000000000000207. \n[PubMed: 26417954] \n[6]. Bradley E, Forsberg K, Betts JE, et al. , Factors affecting pre-exposure prophylaxis implementation \nfor women in the United States: a systematic review, J. Women’s Health 28 (9) (2019) 1272–\n1285, 10.1089/jwh.2018.7353.\n[7]. Warren EA, Paterson P, Schulz WS, et al. , Risk perception and the influence on uptake and use \nof biomedical prevention interventions for HIV in sub-Saharan Africa: a systematic literature \nreview, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.",
+                "metadata": {
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "page_number": 15,
+                    "chunk_index": 3,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf"
+                },
+                "distance": 0.5870498418807983
+            },
+            {
+                "id": "0296a4cdd238d0a639d471c9d93f0fe6",
+                "text": "oral PrEP) can effectively prevent HIV among women at-risk of infection [5]; however, \nbehavioral, social, and structural factors may have a role in limiting awareness and uptake of \ndaily oral PrEP among women globally [6,7]. Recently, a dapivirine IVR [8] and long-acting \nMcLellan-Lemal et al.\nPage 2\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+                "metadata": {
+                    "chunk_index": 7,
+                    "page_number": 2,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd"
+                },
+                "distance": 0.6129053831100464
+            },
+            {
+                "id": "042cccbe196b4222c6a474c91234ec3f",
+                "text": "s12889-015-1483-1. [PubMed: 25884675] \n[39]. Fonner V, Dalglish S, Kennedy C, Oral tenofovir-based HIV pre-exposure prophylaxis \n(PrEP) for all populations: a systematic review and meta-analysis of effectiveness, safety, \nbehavioural, and reproductive health outcomes, AIDS 30 (12) (2016) 1973–1983, 10.1097/\nQAD.0000000000001145. [PubMed: 27149090] \n[40]. Akoth C, Oguta JO, Gatimu SM, Prevalence and factors associated with covert contraceptive \nuse in Kenya: a cross-sectional study, BMC Public Health 21 (1) (2021) 1–8, 10.1186/\ns12889-021-11375-7. [PubMed: 33388037]",
+                "metadata": {
+                    "chunk_index": 5,
+                    "page_number": 17,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd"
+                },
+                "distance": 0.6218228340148926
+            },
+            {
+                "id": "09b0934426602b63a1b02a56ab21222f",
+                "text": "cure for HIV. Concerns for the welfare of children who had one or both parents die \nfrom HIV were common. The idea of a MPT IVR providing an effective method for \navoiding unplanned pregnancy, especially among adolescent girls and young women, was \ngenerally viewed favorably (e.g., supports child spacing, improves health and socioeconomic \nMcLellan-Lemal et al.\nPage 9\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript\nAuthor Manuscript",
+                "metadata": {
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "chunk_index": 6,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "page_number": 9
+                },
+                "distance": 0.6234999895095825
+            },
+            {
+                "id": "20d089b96f6bbceb4ec08d1173eefe38",
+                "text": "The data that support the findings of this study are available from the CDC but restrictions \napply to the availability of these data, which were used under license for the current study, \nso are not publicly available. Data are, however, available from the authors upon reasonable \nrequest and with permission of CDC.\nAbbreviations:\nCDC\nUnited States Centers for Disease Control and Prevention\nHIV\nHuman immunodeficiency virus\nIVR\nIntravaginal ring\nMcLellan-Lemal et al.\nPage 14\nContemp Clin Trials. Author manuscript; available in PMC 2024 July 23.\nAuthor Manuscript\nAuthor Manuscript",
+                "metadata": {
+                    "chunk_index": 5,
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "page_number": 14
+                },
+                "distance": 0.6269718408584595
+            },
+            {
+                "id": "25c7efd84743144e93ffde0eb7003222",
+                "text": "influence collective receptivity. Additional community acceptability research is needed.\nClinical Trial Registration—The study is registered at http://ClinicalTrials.gov under the \nidentifier NCT03762382.\nKeywords\nHIV prevention; Multipurpose intravaginal rings; Acceptability; User experience; Women; Kenya\n1. Introduction\nFor sexually active women of reproductive age, reducing risks for human immunodeficiency \nvirus (HIV) infection, other sexually transmitted infections (STIs), and unintended \npregnancy remain public health priorities, especially in high prevalence settings. While",
+                "metadata": {
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "page_number": 2,
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "chunk_index": 3
+                },
+                "distance": 0.641406774520874
+            },
+            {
+                "id": "e0b9c67ec5c70569f36f1c7ce72e4b9a",
+                "text": "with the IVR and experienced minimal side effects, physical discomfort, sexual interference, \nand expulsions. While not reported as problematic, increased vaginal wetness was present \nacross study groups but more common among the TFV/LNG IVR group. Similar findings\nwere reported for at least two US-based studies of HIV prevention-only IVRs [30,31]. \nLongitudinal examination of changes in abundances of individual bacterial taxa for the \nKCRS trial showed no evidence that either the TFV/LNG or TFV IVR significantly affected",
+                "metadata": {
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd",
+                    "chunk_index": 0,
+                    "page_number": 13
+                },
+                "distance": 0.6430463790893555
+            },
+            {
+                "id": "99517433a823269d8422f12b0df21295",
+                "text": "review, PLoS One 13 (6) (2018), 10.1371/journal.pone.0198680.\n[8]. Nel A, Kapiga S, Bekker LG, Devlin B, Borremans M, Rosenberg Z for the IPM 027/The \nring study research center teams. Safety and efficacy of dapivirine vaginal ring for HIV-1 \nprevention in African women (Abstract #110LB), CROI, Boston, MA. [abstract], 2016, 2020 \nFebruary 22–25, https://www.croiconference.org/abstract/safety-and-efficacy-dapivirine-vaginal-\nring-hiv-1-prevention-african-women. Accessed July 26 2021.\n[9]. World Health Organization (WHO), Trial results reveal that long-acting",
+                "metadata": {
+                    "document_title": "Acceptability of an intravaginal ring for simultaneously preventing HIV infection and pregnancy: Qualitative findings of the Kisumu Combined Ring Study, 2019 - nihms-2009671.pdf",
+                    "page_number": 15,
+                    "chunk_index": 4,
+                    "document_id": "4fc51fc23e056b26966bdf163da468bd"
+                },
+                "distance": 0.650446891784668
+            }
+        ],
+        "trace_id": "f6623105-6330-428d-bbdc-04c9f3939b02"
+    },
+    "grounding_verdict": "GROUNDED"
+}
