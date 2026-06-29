@@ -23,10 +23,7 @@ if "feedback" not in st.session_state:
 with st.sidebar:
     st.header("📚 Corpus")
     st.markdown(
-        """
-This assistant answers questions **only** using the biomedical
-papers available in the local knowledge base.
-
+        """This assistant answers questions **only** using the biomedical papers available in the local knowledge base.
 Features:
 
 - Semantic Search (RAG)
@@ -63,13 +60,7 @@ Features:
                 st.error(str(e))
 
     st.divider()
-    st.info(
-        "Every answer includes retrieved evidence and a trace ID "
-        "for debugging."
-    )
-# -------------------------------------------------------
-# Helper Functions
-# -------------------------------------------------------
+    st.info("Every answer includes retrieved evidence and a trace ID for debugging.")
 
 def confidence_badge(confidence):
     confidence = confidence.lower()

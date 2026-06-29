@@ -1,0 +1,147 @@
+{
+    "trace_id": "dfeff5f2-e72c-43e1-8503-70906beee011",
+    "question": "what is hepatic cancer?",
+    "latency": {
+        "retrieve": 0.07395898600225337,
+        "generate": 0.8821294520021183,
+        "grounding": 0.5854554920006194,
+        "total": 2.359308700000838
+    },
+    "retrieved_chunks": [
+        {
+            "id": "782c8337b464a00882d487cffbb82c09",
+            "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n3\nIn a study in US on 2061 hepatocellular carcinoma (HCC) \nand 6183 control, 2.8‑fold enhancement in the risk of \nhepatic cancer in diabetic individuals was reported.[35] \nSimilar findings were obtained in Greece. They examined \n333 cases of HCC and 363 controls. Diabetic patients were \nat a 1.86‑fold (95% confidence interval  [CI], 0.99–3.51) \nhigher risk of liver cancer.[36] These findings strongly \nevident the correlation of diabetes with HCC. A three‑fold \nincreased risk of liver cancer has been reported in earlier \ninvestigations after adjustment of confounding factors such \nas alcoholism and viral hepatitis.[37,38] Several studies have \nelucidated the relationship between diabetes and HCC \nwith different etiologies. An extensive US‑based study \non hepatoma revealed profound results; the hepatoma \nrisk was elevated in diabetic individuals manifested with",
+            "metadata": {
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "chunk_index": 0,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "page_number": 3
+            },
+            "distance": 0.42630547285079956
+        },
+        {
+            "id": "9bbd603f4070cde603d97c7af8c37375",
+            "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n7\n48.\t Bruix J, Sherman M; American Association for the Study of Liver \nDiseases. Management of hepatocellular carcinoma: An update. \nHepatology 2011;53:1020‑2.\n49.\t Chen CL, Yang HI, Yang WS, Liu CJ, Chen PJ, You SL, et al. \nMetabolic factors and risk of hepatocellular carcinoma by \nchronic hepatitis B/C infection: A follow‑up study in Taiwan. \nGastroenterology 2008;135:111‑21.\n50.\t Amano K, Kawaguchi T, Kuromatsu R, Kawaguchi A, Miyajima I, \nIde T, et al. Time trends of clinical characteristics in hepatocellular \ncarcinoma patients with chronic hepatitis B virus infection: A field \nsurvey between 2000 and 2012. Mol Clin Oncol 2014;2:927‑34.\n51.\t Chen CT, Chen JY, Wang JH, Chang KC, Tseng PL, Kee KM, \net al. Diabetes mellitus, metabolic syndrome and obesity are \nnot significant risk factors for hepatocellular carcinoma in an",
+            "metadata": {
+                "chunk_index": 0,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "page_number": 7,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+            },
+            "distance": 0.4849287271499634
+        },
+        {
+            "id": "8ef9edc5d7042ae61a5a71c1beaf01c9",
+            "text": "1997;89:1360‑5.\n38.\t Ogunleye AA, Ogston SA, Morris AD, Evans JM. A cohort study \nof the risk of cancer associated with type 2 diabetes. Br J Cancer \n2009;101:1199‑201.\n39.\t El‑Serag HB, Richardson PA, Everhart JE. The role of diabetes in \nhepatocellular carcinoma: A case‑control study among United \nStates veterans. Am J Gastroenterol 2001;96:2462‑7.\n40.\t Turati F, Talamini R, Pelucchi C, Polesel J, Franceschi S, Crispo A, \net al. Metabolic syndrome and hepatocellular carcinoma risk. Br J \nCancer 2013;108:222‑8.\n41.\t El‑Serag  HB, Tran  T, Everhart  JE. Diabetes increases the \nrisk of chronic liver disease and hepatocellular carcinoma. \nGastroenterology 2004;126:460‑8.\n42.\t Li X, Xu H, Gao Y, Pan M, Wang L, Gao P. Diabetes mellitus \nincreases the risk of hepatocellular carcinoma in treatment‑naïve \nchronic hepatitis C patients in China. Medicine  (Baltimore) \n2017;96:e6508.\n43.\t Veldt  BJ, Chen  W, Heathcote  EJ, Wedemeyer  H, Reichen  J,",
+            "metadata": {
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 6,
+                "page_number": 6,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+            },
+            "distance": 0.500359296798706
+        },
+        {
+            "id": "cef31918713eaa22f2a6ca1381dc83e1",
+            "text": "risk was elevated in diabetic individuals manifested with \nhepatitis B virus (HBV), hepatitis C virus (HCV) infection, \nor with alcoholic cirrhosis.[39] Contrarily, subsequent \nstudies analyzed that the risk of HCC increased in \ndiabetic individuals independent of alcoholism and/or \nviral hepatitis.[40,41] In view of the above contradictions, \nstudies exploring the relationships between diabetes and \nhepatocellular carcinomas with different etiologies have \nbeen analyzed separately. Risk of HCC was found to double \nin diabetic individuals in China with chronic hepatitis as \nspeculated by Li et al., 2017.[42] Parallelly, a study in Europe \ninvestigating on the risk of HCC in diabetes in association \nwith chronic hepatitis C observed that HCC incidence was \n11.4% and 5.0% in diabetic and nondiabetic individuals, \nrespectively.[43] Contrary observations were speculated in \ncohort involving 54,979 individuals, wherein increased \nHCC risk was found in HCC‑negative individuals.[44] There",
+            "metadata": {
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                "chunk_index": 1,
+                "page_number": 3,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+            },
+            "distance": 0.5053133964538574
+        },
+        {
+            "id": "21baa0d1c1adfda82f26694ae807a480",
+            "text": "not significant risk factors for hepatocellular carcinoma in an \nHBV – And HCV‑endemic area of Southern Taiwan. Kaohsiung J \nMed Sci 2013;29:451‑9.\n52.\t Gao C, Fang L, Zhao HC, Li JT, Yao SK. Potential role of diabetes \nmellitus in the progression of cirrhosis to hepatocellular carcinoma: \nA cross‑sectional case‑control study from Chinese patients with \nHBV infection. Hepatobiliary Pancreat Dis Int 2013;12:385‑93.\n53.\t Ali Kamkar MM, Ahmad R, Alsmadi O, Behbehani K. Insight into \nthe impact of diabetes mellitus on the increased risk of hepatocellular \ncarcinoma: Mini‑review. J Diabetes Metab Disord 2014;13:57.\n54.\t World Health Organization. Latest Global Cancer Data. World \nHealth Organization; 2018.\n55.\t Zelenko Z, Gallagher EJ. Diabetes and cancer. Endocrinol Metab \nClin North Am 2014;43:167‑85.\n56.\t Guraya SY. Association of type 2 diabetes mellitus and the risk of \ncolorectal cancer: A meta‑analysis and systematic review. World \nJ Gastroenterol 2015;21:6026‑31.",
+            "metadata": {
+                "chunk_index": 1,
+                "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 7,
+                "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+            },
+            "distance": 0.5213191509246826
+        }
+    ],
+    "prompt": {
+        "system": "\nYou are a biomedical research assistant.\n\nAnswer the user's question using ONLY the retrieved context.\nDo not use outside knowledge, make assumptions, or infer information that is not explicitly supported by the retrieved context.\n\nIf the retrieved context does not contain enough information to answer the question, reply exactly:\n\"I don't know based on the provided context.\"\n\nIf the retrieved context contains conflicting information, clearly state that the sources disagree and summarize each viewpoint objectively. Do not attempt to resolve the disagreement unless one viewpoint is explicitly better supported by the retrieved context.\n\nOnly cite retrieved chunks that directly support your answer.\nDo not fabricate citations. Every citation must correspond to one of the retrieved chunks.\n\nReturn ONLY a valid JSON object.\nDo not include markdown, code fences, explanations, or any text outside the JSON.\n\nThe JSON object must contain exactly these fields:\n\n{\n  \"answer\": \"<string>\",\n  \"citations\": [\n    {\n      \"document_id\": \"<string>\",\n      \"page_number\": <integer>,\n      \"chunk_index\": <integer>\n    }\n  ],\n  \"confidence\": \"<low|medium|high>\"\n}\n\nConfidence guidelines:\n- high: The retrieved context directly and completely supports the answer.\n- medium: The answer is supported, but some details are indirect or incomplete.\n- low: The retrieved context provides only partial, conflicting, or weak support for the answer.\n\nAlways use the field name \"citations\". Never use \"citation\".\n",
+        "user": "Retrieved context: \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 3\n        Chunk Index: 0\n        Content: Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n3\nIn a study in US on 2061 hepatocellular carcinoma (HCC) \nand 6183 control, 2.8‑fold enhancement in the risk of \nhepatic cancer in diabetic individuals was reported.[35] \nSimilar findings were obtained in Greece. They examined \n333 cases of HCC and 363 controls. Diabetic patients were \nat a 1.86‑fold (95% confidence interval  [CI], 0.99–3.51) \nhigher risk of liver cancer.[36] These findings strongly \nevident the correlation of diabetes with HCC. A three‑fold \nincreased risk of liver cancer has been reported in earlier \ninvestigations after adjustment of confounding factors such \nas alcoholism and viral hepatitis.[37,38] Several studies have \nelucidated the relationship between diabetes and HCC \nwith different etiologies. An extensive US‑based study \non hepatoma revealed profound results; the hepatoma \nrisk was elevated in diabetic individuals manifested with\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 7\n        Chunk Index: 0\n        Content: Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n7\n48.\t Bruix J, Sherman M; American Association for the Study of Liver \nDiseases. Management of hepatocellular carcinoma: An update. \nHepatology 2011;53:1020‑2.\n49.\t Chen CL, Yang HI, Yang WS, Liu CJ, Chen PJ, You SL, et al. \nMetabolic factors and risk of hepatocellular carcinoma by \nchronic hepatitis B/C infection: A follow‑up study in Taiwan. \nGastroenterology 2008;135:111‑21.\n50.\t Amano K, Kawaguchi T, Kuromatsu R, Kawaguchi A, Miyajima I, \nIde T, et al. Time trends of clinical characteristics in hepatocellular \ncarcinoma patients with chronic hepatitis B virus infection: A field \nsurvey between 2000 and 2012. Mol Clin Oncol 2014;2:927‑34.\n51.\t Chen CT, Chen JY, Wang JH, Chang KC, Tseng PL, Kee KM, \net al. Diabetes mellitus, metabolic syndrome and obesity are \nnot significant risk factors for hepatocellular carcinoma in an\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 6\n        Chunk Index: 6\n        Content: 1997;89:1360‑5.\n38.\t Ogunleye AA, Ogston SA, Morris AD, Evans JM. A cohort study \nof the risk of cancer associated with type 2 diabetes. Br J Cancer \n2009;101:1199‑201.\n39.\t El‑Serag HB, Richardson PA, Everhart JE. The role of diabetes in \nhepatocellular carcinoma: A case‑control study among United \nStates veterans. Am J Gastroenterol 2001;96:2462‑7.\n40.\t Turati F, Talamini R, Pelucchi C, Polesel J, Franceschi S, Crispo A, \net al. Metabolic syndrome and hepatocellular carcinoma risk. Br J \nCancer 2013;108:222‑8.\n41.\t El‑Serag  HB, Tran  T, Everhart  JE. Diabetes increases the \nrisk of chronic liver disease and hepatocellular carcinoma. \nGastroenterology 2004;126:460‑8.\n42.\t Li X, Xu H, Gao Y, Pan M, Wang L, Gao P. Diabetes mellitus \nincreases the risk of hepatocellular carcinoma in treatment‑naïve \nchronic hepatitis C patients in China. Medicine  (Baltimore) \n2017;96:e6508.\n43.\t Veldt  BJ, Chen  W, Heathcote  EJ, Wedemeyer  H, Reichen  J,\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 3\n        Chunk Index: 1\n        Content: risk was elevated in diabetic individuals manifested with \nhepatitis B virus (HBV), hepatitis C virus (HCV) infection, \nor with alcoholic cirrhosis.[39] Contrarily, subsequent \nstudies analyzed that the risk of HCC increased in \ndiabetic individuals independent of alcoholism and/or \nviral hepatitis.[40,41] In view of the above contradictions, \nstudies exploring the relationships between diabetes and \nhepatocellular carcinomas with different etiologies have \nbeen analyzed separately. Risk of HCC was found to double \nin diabetic individuals in China with chronic hepatitis as \nspeculated by Li et al., 2017.[42] Parallelly, a study in Europe \ninvestigating on the risk of HCC in diabetes in association \nwith chronic hepatitis C observed that HCC incidence was \n11.4% and 5.0% in diabetic and nondiabetic individuals, \nrespectively.[43] Contrary observations were speculated in \ncohort involving 54,979 individuals, wherein increased \nHCC risk was found in HCC‑negative individuals.[44] There\n        ----------------------------------------\n        \n        Document Title: ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT\n        Page Number: 7\n        Chunk Index: 1\n        Content: not significant risk factors for hepatocellular carcinoma in an \nHBV – And HCV‑endemic area of Southern Taiwan. Kaohsiung J \nMed Sci 2013;29:451‑9.\n52.\t Gao C, Fang L, Zhao HC, Li JT, Yao SK. Potential role of diabetes \nmellitus in the progression of cirrhosis to hepatocellular carcinoma: \nA cross‑sectional case‑control study from Chinese patients with \nHBV infection. Hepatobiliary Pancreat Dis Int 2013;12:385‑93.\n53.\t Ali Kamkar MM, Ahmad R, Alsmadi O, Behbehani K. Insight into \nthe impact of diabetes mellitus on the increased risk of hepatocellular \ncarcinoma: Mini‑review. J Diabetes Metab Disord 2014;13:57.\n54.\t World Health Organization. Latest Global Cancer Data. World \nHealth Organization; 2018.\n55.\t Zelenko Z, Gallagher EJ. Diabetes and cancer. Endocrinol Metab \nClin North Am 2014;43:167‑85.\n56.\t Guraya SY. Association of type 2 diabetes mellitus and the risk of \ncolorectal cancer: A meta‑analysis and systematic review. World \nJ Gastroenterol 2015;21:6026‑31.\n        ----------------------------------------\n         , Question: what is hepatic cancer?"
+    },
+    "cost": {
+        "input_tokens": 2044,
+        "output_tokens": 110,
+        "total_tokens": 2154,
+        "dollar_cost": 0.0
+    },
+    "llm_response": {
+        "answer": "Hepatic cancer, also known as hepatocellular carcinoma (HCC), is a type of cancer that affects the liver.",
+        "citations": [
+            {
+                "document_id": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                "page_number": 3,
+                "chunk_index": 0
+            }
+        ],
+        "confidence": "high",
+        "retrieved_chunks": [
+            {
+                "id": "782c8337b464a00882d487cffbb82c09",
+                "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n3\nIn a study in US on 2061 hepatocellular carcinoma (HCC) \nand 6183 control, 2.8‑fold enhancement in the risk of \nhepatic cancer in diabetic individuals was reported.[35] \nSimilar findings were obtained in Greece. They examined \n333 cases of HCC and 363 controls. Diabetic patients were \nat a 1.86‑fold (95% confidence interval  [CI], 0.99–3.51) \nhigher risk of liver cancer.[36] These findings strongly \nevident the correlation of diabetes with HCC. A three‑fold \nincreased risk of liver cancer has been reported in earlier \ninvestigations after adjustment of confounding factors such \nas alcoholism and viral hepatitis.[37,38] Several studies have \nelucidated the relationship between diabetes and HCC \nwith different etiologies. An extensive US‑based study \non hepatoma revealed profound results; the hepatoma \nrisk was elevated in diabetic individuals manifested with",
+                "metadata": {
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "chunk_index": 0,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "page_number": 3
+                },
+                "distance": 0.42630547285079956
+            },
+            {
+                "id": "9bbd603f4070cde603d97c7af8c37375",
+                "text": "Abudawood: Diabetes: A cause or consequence of cancer?\nJournal of Research in Medical Sciences\n| 2019 |\n7\n48.\t Bruix J, Sherman M; American Association for the Study of Liver \nDiseases. Management of hepatocellular carcinoma: An update. \nHepatology 2011;53:1020‑2.\n49.\t Chen CL, Yang HI, Yang WS, Liu CJ, Chen PJ, You SL, et al. \nMetabolic factors and risk of hepatocellular carcinoma by \nchronic hepatitis B/C infection: A follow‑up study in Taiwan. \nGastroenterology 2008;135:111‑21.\n50.\t Amano K, Kawaguchi T, Kuromatsu R, Kawaguchi A, Miyajima I, \nIde T, et al. Time trends of clinical characteristics in hepatocellular \ncarcinoma patients with chronic hepatitis B virus infection: A field \nsurvey between 2000 and 2012. Mol Clin Oncol 2014;2:927‑34.\n51.\t Chen CT, Chen JY, Wang JH, Chang KC, Tseng PL, Kee KM, \net al. Diabetes mellitus, metabolic syndrome and obesity are \nnot significant risk factors for hepatocellular carcinoma in an",
+                "metadata": {
+                    "chunk_index": 0,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "page_number": 7,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+                },
+                "distance": 0.4849287271499634
+            },
+            {
+                "id": "8ef9edc5d7042ae61a5a71c1beaf01c9",
+                "text": "1997;89:1360‑5.\n38.\t Ogunleye AA, Ogston SA, Morris AD, Evans JM. A cohort study \nof the risk of cancer associated with type 2 diabetes. Br J Cancer \n2009;101:1199‑201.\n39.\t El‑Serag HB, Richardson PA, Everhart JE. The role of diabetes in \nhepatocellular carcinoma: A case‑control study among United \nStates veterans. Am J Gastroenterol 2001;96:2462‑7.\n40.\t Turati F, Talamini R, Pelucchi C, Polesel J, Franceschi S, Crispo A, \net al. Metabolic syndrome and hepatocellular carcinoma risk. Br J \nCancer 2013;108:222‑8.\n41.\t El‑Serag  HB, Tran  T, Everhart  JE. Diabetes increases the \nrisk of chronic liver disease and hepatocellular carcinoma. \nGastroenterology 2004;126:460‑8.\n42.\t Li X, Xu H, Gao Y, Pan M, Wang L, Gao P. Diabetes mellitus \nincreases the risk of hepatocellular carcinoma in treatment‑naïve \nchronic hepatitis C patients in China. Medicine  (Baltimore) \n2017;96:e6508.\n43.\t Veldt  BJ, Chen  W, Heathcote  EJ, Wedemeyer  H, Reichen  J,",
+                "metadata": {
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 6,
+                    "page_number": 6,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+                },
+                "distance": 0.500359296798706
+            },
+            {
+                "id": "cef31918713eaa22f2a6ca1381dc83e1",
+                "text": "risk was elevated in diabetic individuals manifested with \nhepatitis B virus (HBV), hepatitis C virus (HCV) infection, \nor with alcoholic cirrhosis.[39] Contrarily, subsequent \nstudies analyzed that the risk of HCC increased in \ndiabetic individuals independent of alcoholism and/or \nviral hepatitis.[40,41] In view of the above contradictions, \nstudies exploring the relationships between diabetes and \nhepatocellular carcinomas with different etiologies have \nbeen analyzed separately. Risk of HCC was found to double \nin diabetic individuals in China with chronic hepatitis as \nspeculated by Li et al., 2017.[42] Parallelly, a study in Europe \ninvestigating on the risk of HCC in diabetes in association \nwith chronic hepatitis C observed that HCC incidence was \n11.4% and 5.0% in diabetic and nondiabetic individuals, \nrespectively.[43] Contrary observations were speculated in \ncohort involving 54,979 individuals, wherein increased \nHCC risk was found in HCC‑negative individuals.[44] There",
+                "metadata": {
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee",
+                    "chunk_index": 1,
+                    "page_number": 3,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT"
+                },
+                "distance": 0.5053133964538574
+            },
+            {
+                "id": "21baa0d1c1adfda82f26694ae807a480",
+                "text": "not significant risk factors for hepatocellular carcinoma in an \nHBV – And HCV‑endemic area of Southern Taiwan. Kaohsiung J \nMed Sci 2013;29:451‑9.\n52.\t Gao C, Fang L, Zhao HC, Li JT, Yao SK. Potential role of diabetes \nmellitus in the progression of cirrhosis to hepatocellular carcinoma: \nA cross‑sectional case‑control study from Chinese patients with \nHBV infection. Hepatobiliary Pancreat Dis Int 2013;12:385‑93.\n53.\t Ali Kamkar MM, Ahmad R, Alsmadi O, Behbehani K. Insight into \nthe impact of diabetes mellitus on the increased risk of hepatocellular \ncarcinoma: Mini‑review. J Diabetes Metab Disord 2014;13:57.\n54.\t World Health Organization. Latest Global Cancer Data. World \nHealth Organization; 2018.\n55.\t Zelenko Z, Gallagher EJ. Diabetes and cancer. Endocrinol Metab \nClin North Am 2014;43:167‑85.\n56.\t Guraya SY. Association of type 2 diabetes mellitus and the risk of \ncolorectal cancer: A meta‑analysis and systematic review. World \nJ Gastroenterol 2015;21:6026‑31.",
+                "metadata": {
+                    "chunk_index": 1,
+                    "document_title": "ADD:ATAO:TX_1~HTC:G:ABS:AT/ADD:OS:TX_2~HTC:G:ABS:AT",
+                    "page_number": 7,
+                    "document_id": "14c59bd5b5539b9f8e80067e656ac4ee"
+                },
+                "distance": 0.5213191509246826
+            }
+        ],
+        "trace_id": "dfeff5f2-e72c-43e1-8503-70906beee011"
+    },
+    "grounding_verdict": "GROUNDED"
+}

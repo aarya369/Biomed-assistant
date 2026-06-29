@@ -53,7 +53,7 @@ def answer_question(question):
         return str(e)
     
     retrieve_start = time.perf_counter()
-    chunks = retrieve_chunks(question)
+    chunks = retrieve_chunks(question, k = 10)
     retrieve_time = time.perf_counter() - retrieve_start
     trace["latency"] = {
         "retrieve": retrieve_time
