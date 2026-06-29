@@ -22,9 +22,9 @@ def build_vector():
             "document_id" : chunk["document_id"],
             "page_number" : chunk["page_number"],
             "chunk_index" : chunk["chunk_index"],
-            "title": chunk["document_title"]
+            "document_title": chunk["document_title"]
 
         }]
     )
-    if __name__ == '__main__':
+if __name__ == '__main__':
         build_vector()

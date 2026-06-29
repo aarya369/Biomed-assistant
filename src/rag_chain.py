@@ -59,8 +59,7 @@ def answer_question(question):
         "retrieve": retrieve_time
     }
     trace["retrieved_chunks"] = chunks
-    THRESHOLD = 0.7
-    print(chunks[0]["distance"])
+    THRESHOLD = 0.6
     if(len(chunks) == 0) or chunks[0]["distance"] > THRESHOLD:
         trace["latency"]["total"] = time.perf_counter() - total_start
         save_trace(trace)

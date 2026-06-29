@@ -1,0 +1,17 @@
+[
+    {
+        "trace_id": "1eaaf022-24ff-430b-b954-b9fbcea37403",
+        "feedback": "up",
+        "timestamp": "2026-06-29 16:02:42.281050"
+    },
+    {
+        "trace_id": "1eaaf022-24ff-430b-b954-b9fbcea37403",
+        "feedback": "down",
+        "timestamp": "2026-06-29 16:02:44.065321"
+    },
+    {
+        "trace_id": "1eaaf022-24ff-430b-b954-b9fbcea37403",
+        "feedback": "up",
+        "timestamp": "2026-06-29 16:02:45.466674"
+    }
+]

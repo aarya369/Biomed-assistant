@@ -7,10 +7,10 @@ model = SentenceTransformer(
 
 # Connect to the existing ChromaDB
 client = chromadb.PersistentClient(path="data/chroma_db")
-collection = client.get_collection("biomedical_chunks")
 
 def retrieve_chunks(query, k = 5):
     # Convert the query into an embedding
+    collection = client.get_collection("biomedical_chunks")
     query_embedding = model.encode(query).tolist()
     results = collection.query(
     query_embeddings=[query_embedding],

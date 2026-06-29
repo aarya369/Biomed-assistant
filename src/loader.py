@@ -6,7 +6,6 @@ import os
 DATA_DIR = "data/papers"
 OUTPUT_FILE = "outputs/documents.json"
 
-
 def process_pdf(pdf_path):
     """Extract metadata and text from a single PDF."""
 
