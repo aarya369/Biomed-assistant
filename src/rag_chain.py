@@ -1,7 +1,8 @@
 
-from src.retriever import retrieve_chunks
+
 import os, json
 import uuid
+from src.retriever import retrieve_chunks
 from src.prompts import SYSTEM_PROMPT
 from src.input_guardrails import validate_input
 from src.citation_validator import validate_citations
@@ -29,18 +30,17 @@ def clean_context_text(text):
 
 def save_trace(trace):
     os.makedirs("traces", exist_ok = True)
-    filepath = os.path.join(
-        "traces",
-        f"{trace['trace_id']}.json"
-    )
+    filepath = os.path.join("traces",f"{trace['trace_id']}.json")
     with open(filepath, "w", encoding = "utf-8") as f:
         json.dump(trace, f, indent = 4, ensure_ascii = False)
+
 def answer_question(question):
     trace_id = str(uuid.uuid4())
     trace = {
         "trace_id": trace_id,
         "question": question,
-        "latency": {}
+        "latency": {},
+        "retrieved_chunks": []
     }
     total_start = time.perf_counter()
 
@@ -59,8 +59,9 @@ def answer_question(question):
         "retrieve": retrieve_time
     }
     trace["retrieved_chunks"] = chunks
-    THRESHOLD = 0.5
-    if(len(chunks) == 0) or chunks[0]["distance"] < THRESHOLD:
+    THRESHOLD = 0.7
+    print(chunks[0]["distance"])
+    if(len(chunks) == 0) or chunks[0]["distance"] > THRESHOLD:
         trace["latency"]["total"] = time.perf_counter() - total_start
         save_trace(trace)
         return {
@@ -73,7 +74,7 @@ def answer_question(question):
     for chunk in chunks:
         content = clean_context_text(chunk["text"])
         context += f"""
-        Document ID: {chunk["metadata"]["document_id"]}
+        Document Title: {chunk["metadata"]["document_title"]}
         Page Number: {chunk["metadata"]["page_number"]}
         Chunk Index: {chunk["metadata"]["chunk_index"]}
         Content: {content}
@@ -134,12 +135,17 @@ def answer_question(question):
         trace["latency"]["grounding"] = ground_time
         trace["grounding_verdict"] = status
         if status == "GROUNDED":
+            response_json["retrieved_chunks"] = chunks
+            response_json["trace_id"] = trace_id
             trace["latency"]["total"] = time.perf_counter() - total_start
             save_trace(trace)
+            
             return response_json
         elif status == "PARTIAL":
+            response_json["retrieved_chunks"] = chunks
+            response_json["trace_id"] = trace_id
             response_json["answer"] = ("The answer is only partially supported by the retrieved literature.\n\n" + response_json["answer"])
-            response_json["confidence"] = "low"
+            response_json["confidence"] = "medium"
             trace["latency"]["total"] = time.perf_counter() - total_start
             save_trace(trace)
             return response_json

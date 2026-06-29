@@ -1,8 +1,5 @@
 def validate_citations(response):
-    """
-    Rejects any answer that makes a claim without citations.
-    """
-
+    
     answer = response.get("answer", "").strip()
     citations = response.get("citations", [])
 
