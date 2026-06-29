@@ -11,7 +11,7 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 # Load the LLM
 llm = ChatGroq(
     api_key=groq_api_key,
-    model="llama-3.3-70b-versatile",
+    model="llama-3.1-8b-instant",
     temperature=0
 )
 security_chain = (SECURITY_PROMPT | llm | StrOutputParser())

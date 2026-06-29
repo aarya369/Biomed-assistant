@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 
 INPUT_FILE = "outputs/documents.json"
 OUTPUT_FILE = "outputs/chunks_with_embeddings.json"
-CHUNK_SIZE = 1000
+CHUNK_SIZE = 600
 CHUNK_OVERLAP = 100
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=CHUNK_SIZE,

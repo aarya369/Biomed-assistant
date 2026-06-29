@@ -18,7 +18,7 @@ load_dotenv()
 def get_llm():
     return ChatGroq(
         api_key=os.getenv("GROQ_API_KEY"),
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-8b-instant",
         temperature=0
     )
 
@@ -80,7 +80,18 @@ def answer_question(question):
         ----------------------------------------
         """
 
-    human_prompt = f"""Retrieved context: {context} , Question: {question}"""
+    human_prompt = f"""
+Question:
+{question}
+
+Retrieved Context:
+{context}
+
+Instructions:
+Answer ONLY the question asked.
+Prioritize the retrieved passages that are most relevant to the question.
+Do not summarize unrelated parts of the retrieved context.
+"""
     trace["prompt"] = {
         "system": SYSTEM_PROMPT,
         "user": human_prompt
