@@ -83,7 +83,7 @@ Do not use outside knowledge, make assumptions, or infer information that is not
 Read all retrieved chunks carefully before answering.
 
 Focus on the information that MOST DIRECTLY answers the user's question.
-Do not summarize the entire retrieved context if only a specific section is relevant.
+Do not summarize the entire retrieved context if only a specific section is relevant. Try to make the answer as detailed as possible.
 
 For example:
 - If the user asks about mechanisms, prioritize mechanistic explanations over epidemiological findings.
